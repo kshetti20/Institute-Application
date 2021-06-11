@@ -1,0 +1,22 @@
+Facilities under student login: 
+Student login : Login Module
+Able to select and view courses : Courses Module
+Download syllabus pdf : PDF module 
+Contact faculties over chat : Chat module
+About us page : About Us module
+
+Facilities under Faculty login
+Faculty login : Login Module
+Able to edit and add courses  : Courses Module
+Reply to students and parents on chat : Chat module
+Upload syllabus : PDF module 
+Edit about us page : About Us module
+
+
+Total Modules : 5
+Register Module
+Login Module
+Chat Module
+PDF Module
+Courses Module
+About Us Module
