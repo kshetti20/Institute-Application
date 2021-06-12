@@ -6,9 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import myapp.kshetti.instituteapplication.databinding.FragmentUserSeperationBinding
+import myapp.kshetti.instituteapplication.viewmodels.UserProfileViewModel
 
 class UserSeperationFragment : Fragment() {
+
+    private val viewModel : UserProfileViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
