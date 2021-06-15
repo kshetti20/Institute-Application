@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
 import myapp.kshetti.instituteapplication.databinding.FragmentUserSeperationBinding
 import myapp.kshetti.instituteapplication.viewmodels.UserProfileViewModel
