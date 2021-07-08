@@ -5,11 +5,13 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "myapp.kshetti.instituteapplication"
-        minSdkVersion 24
+        /* with minSdkVersion of 16 i.e. Jellybean, almost 99.8% of devices are covered */
+        minSdkVersion 16
+        /* targetSdkVersion is kept to the latest version Android 11*/
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
